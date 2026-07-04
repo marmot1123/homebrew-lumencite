@@ -6,15 +6,14 @@ reference (bibliography) manager for researchers, built with Tauri 2 + React.
 ## Install
 
 ```sh
-brew install --cask marmot1123/lumencite/lumencite
-```
-
-Or add the tap first, then install:
-
-```sh
 brew tap marmot1123/lumencite
+brew trust marmot1123/lumencite   # Homebrew 6.0+ requires trusting third-party taps
 brew install --cask lumencite
 ```
+
+> **Why `brew trust`?** Since Homebrew 6.0, casks from third-party taps must be
+> explicitly trusted before they can be installed. You only need to run it once
+> per tap. Review [`Casks/lumencite.rb`](Casks/lumencite.rb) first if you like.
 
 ## Upgrade
 
