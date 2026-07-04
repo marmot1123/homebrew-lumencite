@@ -1,6 +1,6 @@
 cask "lumencite" do
-  version "0.6.0"
-  sha256 "699d4f664d2029ad992012909a061f3c89c38c47411eee9983e3b7cc9959484f"
+  version "0.7.0"
+  sha256 "17cae7d5702d18844acbf4e7d64003e0e1c72ad4dcaff213b283122254e2f503"
 
   url "https://github.com/marmot1123/LumenCite/releases/download/v#{version}/LumenCite_#{version}_universal.dmg"
   name "LumenCite"
